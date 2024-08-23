@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+*{margin:0; padding:0; box-sizing: border-box;}
+
+#layout { 
+   max-width: 100vw; min-height: 100vh; margin:auto;
+   background-color: antiquewhite; 
+}
+
+form {
+    padding-top:5%;
+}
+
+fieldset {
+    line-height: 300%;
+    border: 2px solid #ccc;
+    padding:2%;    
+    font-size: 0.8rem;
+    margin:5%    
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input {
+    float:right;    
+}
+
+
+#divline { 
+    width:90%;
+    border-top:2px solid rgb(216, 175, 175) ;
+    margin:auto;
+}
+
+
+#acc {
+    padding-bottom: 10%;
+    border:2px solid red;
+    border:none;
+}
+
+
+button.material-symbols-outlined {
+    display:block;
+    background-color: blanchedalmond;
+    width:30%;
+    height: 20%;
+    margin:auto;
+    margin-top:15%;       
+}

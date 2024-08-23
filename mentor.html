@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멘토 가입 페이지</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="css/mentor.css">
+
+</head>
+<body>
+    <div id="layout">
+
+        <form>
+
+            <fieldset>
+                <legend>*기본 정보(필수)*</legend>
+
+                <label for="name">이름 : </label>
+                <input type="text" placeholder="영문 or 한글 입력" pattern="[A-Za-z가-힣]+" id="ek" required><b><br> 
+
+                <label for="mobile">연락처 : </label>
+                <input type="number" pattern="[0-9]" placeholder="숫자만 입력" id="ens" required><b><br>
+
+                <label for="name">아이디 : </label>
+                <input type="text" pattern="[A-Za-z][A-Za-z0-9]" placeholder="영문/숫자 조합" id="en" required><b><br> 
+
+                <label for="password">비밀번호 : </label>
+                <input type="text" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$" placeholder="영문/숫자/특수문자 조합 입력" id="ens" required><b><br>
+
+                <label for="password">비밀번호 확인 : </label>
+                <input type="text" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$" placeholder="영문/숫자/특수문자 조합 입력" id="ens" required><b>
+
+            </fieldset>
+
+            <div id="divline"></div>
+
+            <fieldset>
+                <legend>*자격 선택란(선택)*</legend>
+
+                <label for="name">자격1 : </label>
+                <input type="text" placeholder="영문 or 한글 or 숫자 입력" pattern="[A-Za-z가-힣0-9]" id="ek"><b><br> 
+
+                <label for="name">자격2 : </label>
+                <input type="text" placeholder="영문 or 한글 or 숫자 입력" pattern="[A-Za-z가-힣0-9]" id="ek"><b><br> 
+
+                <label for="name">자격3 : </label>
+                <input type="text" placeholder="영문 or 한글 or 숫자 입력" pattern="[A-Za-z가-힣0-9]" id="ek"><b><br>                
+
+            </fieldset>
+
+            <div id="divline"></div>
+
+            <fieldset>
+                <legend>*선택 입력란*</legend>
+
+                <label for="name">주소 : </label>
+                <input type="text" placeholder="영문 or 한글 or 숫자 입력" pattern="[A-Za-z가-힣0-9]" id="ek"><b><br> 
+
+                <label for="name">이메일 : </label>
+                <input type="text" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$" placeholder="영문/숫자/특수문자 조합 입력" required><b><br>
+
+                <label for="name">경력사항 : </label>
+                <input type="text" placeholder="영문 or 한글 or 숫자 입력" pattern="[A-Za-z가-힣0-9]" id="ek"><b>              
+
+            </fieldset>
+
+            <button type="submit" class="material-symbols-outlined">
+                account_circle</button> 
+
+        </form>
+
+
+    </div>
+</body>
+</html>
